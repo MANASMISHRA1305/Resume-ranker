@@ -34,7 +34,7 @@ ${jd}
         "Authorization": "Bearer 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"
       },
       body: JSON.stringify({
-        model: "gpt-4o",
+        model: "gpt-3.5-turbo",
         messages: [
           { role: "system", content: "You are a helpful assistant." },
           { role: "user", content: prompt }
